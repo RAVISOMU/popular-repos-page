@@ -1,0 +1,67 @@
+.repo-list-item {
+  list-style-type: none;
+  width: 100%;
+  background-color: #f8f8ff;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px 0px;
+  margin-bottom: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .repo-list-item {
+    width: 200px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .repo-list-item {
+    width: 270px;
+    margin-right: 14px;
+    margin-bottom: 14px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .repo-list-item {
+    width: 330px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+  }
+}
+
+.avatar {
+  width: 30%;
+}
+
+.repo-name {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #e73959;
+}
+
+.details-container {
+  align-self: flex-start;
+  padding-left: 36px;
+}
+
+.counts-container {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  height: 20px;
+  width: 20px;
+  margin-right: 14px;
+}
+
+.count {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #1e293b;
+}
